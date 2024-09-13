@@ -1,0 +1,22 @@
+# Compile of TCAM.v was successful.
+# Compile of TCAM.v was successful.
+# Compile of TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of TCAM.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 16:07:22 on Aug 03,2024
+# Loading work.TB
+# Loading work.TCAM
+add wave -position insertpoint sim:/TB/*
+run -all
+# Matched: abcd
+# Matched: 50c9
+# Not matched!
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E9/TB.v(55)
+#    Time: 140 ps  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E9/TB.v line 55
+# End time: 17:27:39 on Aug 03,2024, Elapsed time: 1:20:17
+# Errors: 0, Warnings: 8

@@ -1,0 +1,90 @@
+# Compile of SerialComparator.v was successful.
+# Compile of SerialComparator.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of SerialComparator.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 14:25:31 on Jul 15,2024
+# Loading work.tb
+# Loading work.SerialComparator
+add wave -position insertpoint sim:/tb/*
+run -all
+# Time: 0, a = 1, b = 1, lt = x, gt = x, eq = x
+# Time: 10, a = 1, b = 0, lt = x, gt = x, eq = x
+# Time: 15, a = 0, b = 1, lt = x, gt = x, eq = x
+# Time: 20, a = 1, b = 1, lt = x, gt = x, eq = x
+# Time: 40, a = 0, b = 0, lt = x, gt = x, eq = x
+# Time: 55, a = 0, b = 1, lt = x, gt = x, eq = x
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E3_part2/tb.v(67)
+#    Time: 60 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/ideapad 5/Desktop/E3_part2/tb.v line 67
+# Compile of SerialComparator.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.SerialComparator
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/A'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/B'. 
+quit -sim
+# End time: 14:28:12 on Jul 15,2024, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 1
+# Compile of SerialComparator.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 14:28:40 on Jul 15,2024
+# Loading work.tb
+# Loading work.SerialComparator
+run -all
+# Time: 0, a = 1, b = 1, lt = x, gt = x, eq = x
+# Time: 10, a = 1, b = 0, lt = x, gt = x, eq = x
+# Time: 15, a = 0, b = 1, lt = x, gt = x, eq = 0
+# Time: 20, a = 1, b = 1, lt = x, gt = x, eq = 0
+# Time: 40, a = 0, b = 0, lt = x, gt = x, eq = 0
+# Time: 55, a = 0, b = 1, lt = x, gt = x, eq = 0
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E3_part2/tb.v(67)
+#    Time: 60 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/ideapad 5/Desktop/E3_part2/tb.v line 67
+# Compile of SerialComparator.v was successful.
+# Compile of tb.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of SerialComparator.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.SerialComparator
+run -all
+# Time: 0, a = 1, b = 1, lt = 0, gt = 0, eq = 1
+# Time: 20, a = 1, b = 0, lt = 0, gt = 1, eq = 0
+# Time: 30, a = 0, b = 1, lt = 0, gt = 1, eq = 0
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E3_part2/tb.v(57)
+#    Time: 40 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/ideapad 5/Desktop/E3_part2/tb.v line 57
+add wave -position insertpoint sim:/tb/*
+# Compile of SerialComparator.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.SerialComparator
+run -all
+# Time: 0, a = 1, b = 1, lt = 0, gt = 0, eq = 1
+# Time: 20, a = 1, b = 0, lt = 0, gt = 1, eq = 0
+# Time: 30, a = 0, b = 1, lt = 0, gt = 1, eq = 0
+# Time: 40, a = 1, b = 1, lt = 0, gt = 0, eq = 1
+# Time: 80, a = 0, b = 0, lt = 0, gt = 0, eq = 1
+# Time: 110, a = 0, b = 1, lt = 1, gt = 0, eq = 0
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E3_part2/tb.v(103)
+#    Time: 120 ps  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/ideapad 5/Desktop/E3_part2/tb.v line 103
+# End time: 14:59:52 on Jul 15,2024, Elapsed time: 0:31:12
+# Errors: 0, Warnings: 1

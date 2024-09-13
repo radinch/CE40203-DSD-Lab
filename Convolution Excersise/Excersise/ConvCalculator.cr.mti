@@ -1,0 +1,15 @@
+{C:/Users/ideapad 5/Desktop/Excersise/ConvCalculator.v} {1 {vlog -work work -stats=none {C:\Users\ideapad 5\Desktop\Excersise\ConvCalculator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ConvCalculator
+
+Top level modules:
+	ConvCalculator
+
+} {} {}} {C:/Users/ideapad 5/Desktop/Excersise/TB.v} {1 {vlog -work work -stats=none {C:\Users\ideapad 5\Desktop\Excersise\TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}}

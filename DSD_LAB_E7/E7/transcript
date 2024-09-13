@@ -1,0 +1,269 @@
+# Compile of Sender.v was successful.
+# Compile of Sender.v was successful.
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 17:27:32 on Jul 29,2024
+# Loading work.TB
+# Loading work.UART
+# ** Error: (vsim-3033) Instantiation of 'serial_iner' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/U1 File: C:/Users/ideapad 5/Desktop/E7/UART.v Line: 11
+#         Searched libraries:
+#             C:/Users/ideapad 5/Desktop/E7/work
+# ** Error: (vsim-3033) Instantiation of 'receiver' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/U1 File: C:/Users/ideapad 5/Desktop/E7/UART.v Line: 12
+#         Searched libraries:
+#             C:/Users/ideapad 5/Desktop/E7/work
+# ** Error: (vsim-3033) Instantiation of 'serial_iner' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/U2 File: C:/Users/ideapad 5/Desktop/E7/UART.v Line: 11
+#         Searched libraries:
+#             C:/Users/ideapad 5/Desktop/E7/work
+# ** Error: (vsim-3033) Instantiation of 'receiver' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/U2 File: C:/Users/ideapad 5/Desktop/E7/UART.v Line: 12
+#         Searched libraries:
+#             C:/Users/ideapad 5/Desktop/E7/work
+# Error loading design
+# End time: 17:27:33 on Jul 29,2024, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 12
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 17:29:39 on Jul 29,2024
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+# ** Fatal: (vsim-3365) Too many port connections. Expected 9, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/U1 File: C:/Users/ideapad 5/Desktop/E7/TB.v Line: 13
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 17:29:39 on Jul 29,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 17:34:05 on Jul 29,2024
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'U1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/U1 File: C:/Users/ideapad 5/Desktop/E7/TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (7) for port 'received'. The port definition is at: C:/Users/ideapad 5/Desktop/E7/UART.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/U1 File: C:/Users/ideapad 5/Desktop/E7/TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'received_data'. The port definition is at: C:/Users/ideapad 5/Desktop/E7/UART.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/U1 File: C:/Users/ideapad 5/Desktop/E7/TB.v Line: 19
+# ** Warning: (vsim-3722) C:/Users/ideapad 5/Desktop/E7/TB.v(19): [TFMPC] - Missing connection for port 'parity_correctness'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'U2'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB/U2 File: C:/Users/ideapad 5/Desktop/E7/TB.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (7) for port 'received'. The port definition is at: C:/Users/ideapad 5/Desktop/E7/UART.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/U2 File: C:/Users/ideapad 5/Desktop/E7/TB.v Line: 20
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'received_data'. The port definition is at: C:/Users/ideapad 5/Desktop/E7/UART.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /TB/U2 File: C:/Users/ideapad 5/Desktop/E7/TB.v Line: 20
+# ** Warning: (vsim-3722) C:/Users/ideapad 5/Desktop/E7/TB.v(20): [TFMPC] - Missing connection for port 'parity_correctness'.
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 17:54:44 on Jul 29,2024, Elapsed time: 0:20:39
+# Errors: 0, Warnings: 1
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 17:54:54 on Jul 29,2024
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+add wave -position insertpoint sim:/TB/*
+run 1000
+run -all
+# Break key hit
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E7/TB.v line 16
+quit -sim
+# End time: 17:59:29 on Jul 29,2024, Elapsed time: 0:04:35
+# Errors: 0, Warnings: 1
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v failed with 1 errors.
+# Compile of TB.v was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 18:10:51 on Jul 29,2024
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+add wave -position insertpoint sim:/TB/*
+run 1000
+quit -sim
+# End time: 18:21:38 on Jul 29,2024, Elapsed time: 0:10:47
+# Errors: 0, Warnings: 3
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 18:21:51 on Jul 29,2024
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+add wave -position insertpoint sim:/TB/*
+run -all
+run 10000
+run 1000
+run -all
+add wave -position insertpoint sim:/TB/*
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 18:24:41 on Jul 29,2024, Elapsed time: 0:02:50
+# Errors: 0, Warnings: 2
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 18:30:01 on Jul 29,2024
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+add wave -position insertpoint sim:/TB/*
+run -all
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E7/TB.v(34)
+#    Time: 210 ps  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E7/TB.v line 34
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+# Warning in wave window restart: (vish-4014) No objects found matching '/TB/s_out1'. 
+quit -sim
+# End time: 18:32:28 on Jul 29,2024, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 1
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 18:32:39 on Jul 29,2024
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+add wave -position insertpoint sim:/TB/*
+run -all
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E7/TB.v(34)
+#    Time: 210 ps  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E7/TB.v line 34
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+run -all
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E7/TB.v(48)
+#    Time: 300 ps  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E7/TB.v line 48
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+run -all
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E7/TB.v(48)
+#    Time: 1200 ps  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E7/TB.v line 48
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+# Warning in wave window restart: (vish-4014) No objects found matching '/TB/s_out'. 
+add wave -position insertpoint sim:/TB/*
+quit -sim
+# End time: 18:54:04 on Jul 29,2024, Elapsed time: 0:21:25
+# Errors: 0, Warnings: 1
+# Compile of Sender.v was successful.
+# Compile of Receiver.v was successful.
+# Compile of UART.v was successful.
+# Compile of TB.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 18:54:19 on Jul 29,2024
+# Loading work.TB
+# Loading work.UART
+# Loading work.Sender
+# Loading work.Receiver
+add wave -position insertpoint sim:/TB/*
+run -all
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E7/TB.v(49)
+#    Time: 2520 ps  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E7/TB.v line 49
+# End time: 19:11:52 on Jul 29,2024, Elapsed time: 0:17:33
+# Errors: 0, Warnings: 2

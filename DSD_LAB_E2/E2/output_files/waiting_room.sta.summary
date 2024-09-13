@@ -1,0 +1,113 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Recovery 'set'
+Slack : -26.205
+TNS   : -28.924
+
+Type  : Slow 1200mV 85C Model Recovery 'OUT'
+Slack : -1.504
+TNS   : -2.808
+
+Type  : Slow 1200mV 85C Model Recovery 'Ent'
+Slack : -1.002
+TNS   : -1.645
+
+Type  : Slow 1200mV 85C Model Removal 'set'
+Slack : -15.057
+TNS   : -40.797
+
+Type  : Slow 1200mV 85C Model Removal 'OUT'
+Slack : -13.916
+TNS   : -35.711
+
+Type  : Slow 1200mV 85C Model Removal 'Ent'
+Slack : -13.605
+TNS   : -33.984
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'set'
+Slack : -14.236
+TNS   : -243.847
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'OUT'
+Slack : -12.485
+TNS   : -215.752
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Ent'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Recovery 'set'
+Slack : -23.620
+TNS   : -25.785
+
+Type  : Slow 1200mV 0C Model Recovery 'OUT'
+Slack : -1.222
+TNS   : -2.280
+
+Type  : Slow 1200mV 0C Model Recovery 'Ent'
+Slack : -0.786
+TNS   : -1.256
+
+Type  : Slow 1200mV 0C Model Removal 'set'
+Slack : -13.582
+TNS   : -36.891
+
+Type  : Slow 1200mV 0C Model Removal 'OUT'
+Slack : -12.556
+TNS   : -32.489
+
+Type  : Slow 1200mV 0C Model Removal 'Ent'
+Slack : -12.248
+TNS   : -30.849
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'set'
+Slack : -12.778
+TNS   : -218.754
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'OUT'
+Slack : -11.181
+TNS   : -193.866
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Ent'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Recovery 'set'
+Slack : -14.028
+TNS   : -14.740
+
+Type  : Fast 1200mV 0C Model Recovery 'OUT'
+Slack : -0.443
+TNS   : -0.769
+
+Type  : Fast 1200mV 0C Model Recovery 'Ent'
+Slack : -0.144
+TNS   : -0.144
+
+Type  : Fast 1200mV 0C Model Removal 'set'
+Slack : -8.341
+TNS   : -22.679
+
+Type  : Fast 1200mV 0C Model Removal 'OUT'
+Slack : -7.745
+TNS   : -19.773
+
+Type  : Fast 1200mV 0C Model Removal 'Ent'
+Slack : -7.612
+TNS   : -18.874
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'set'
+Slack : -7.967
+TNS   : -133.502
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'OUT'
+Slack : -7.043
+TNS   : -117.423
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Ent'
+Slack : -3.000
+TNS   : -3.013
+
+------------------------------------------------------------

@@ -1,0 +1,986 @@
+|dividable11
+ans <= Compare_4:inst4.eq
+A3[0] => fourbit_adder:inst20.A[0]
+A3[1] => fourbit_adder:inst20.A[1]
+A3[2] => fourbit_adder:inst20.A[2]
+A3[3] => fourbit_adder:inst20.A[3]
+A1[0] => fourbit_adder:inst20.B[0]
+A1[1] => fourbit_adder:inst20.B[1]
+A1[2] => fourbit_adder:inst20.B[2]
+A1[3] => fourbit_adder:inst20.B[3]
+A2[0] => fourbit_adder:inst21.A[0]
+A2[1] => fourbit_adder:inst21.A[1]
+A2[2] => fourbit_adder:inst21.A[2]
+A2[3] => fourbit_adder:inst21.A[3]
+A0[0] => fourbit_adder:inst21.B[0]
+A0[1] => fourbit_adder:inst21.B[1]
+A0[2] => fourbit_adder:inst21.B[2]
+A0[3] => fourbit_adder:inst21.B[3]
+
+
+|dividable11|Compare_4:inst4
+eq <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Compare_2:inst2.x[0]
+A[1] => Compare_2:inst2.x[1]
+A[2] => Compare_2:inst.x[0]
+A[3] => Compare_2:inst.x[1]
+B[0] => Compare_2:inst2.y[0]
+B[1] => Compare_2:inst2.y[1]
+B[2] => Compare_2:inst.y[0]
+B[3] => Compare_2:inst.y[1]
+Aout <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst4|Compare_2:inst
+equal <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+x[0] => Compare_1:inst1.A
+x[1] => Compare_1:inst.A
+y[0] => Compare_1:inst1.B
+y[1] => Compare_1:inst.B
+y_out <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+x_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst4|Compare_2:inst|Compare_1:inst
+eq <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst5.IN0
+A => inst.IN1
+A => inst4.IN0
+A => inst2.IN1
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Aout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst4|Compare_2:inst|Compare_1:inst1
+eq <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst5.IN0
+A => inst.IN1
+A => inst4.IN0
+A => inst2.IN1
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Aout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst4|Compare_2:inst2
+equal <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+x[0] => Compare_1:inst1.A
+x[1] => Compare_1:inst.A
+y[0] => Compare_1:inst1.B
+y[1] => Compare_1:inst.B
+y_out <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+x_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst4|Compare_2:inst2|Compare_1:inst
+eq <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst5.IN0
+A => inst.IN1
+A => inst4.IN0
+A => inst2.IN1
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Aout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst4|Compare_2:inst2|Compare_1:inst1
+eq <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst5.IN0
+A => inst.IN1
+A => inst4.IN0
+A => inst2.IN1
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Aout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst1
+eq <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Compare_2:inst2.x[0]
+A[1] => Compare_2:inst2.x[1]
+A[2] => Compare_2:inst.x[0]
+A[3] => Compare_2:inst.x[1]
+B[0] => Compare_2:inst2.y[0]
+B[1] => Compare_2:inst2.y[1]
+B[2] => Compare_2:inst.y[0]
+B[3] => Compare_2:inst.y[1]
+Aout <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst1|Compare_2:inst
+equal <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+x[0] => Compare_1:inst1.A
+x[1] => Compare_1:inst.A
+y[0] => Compare_1:inst1.B
+y[1] => Compare_1:inst.B
+y_out <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+x_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst1|Compare_2:inst|Compare_1:inst
+eq <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst5.IN0
+A => inst.IN1
+A => inst4.IN0
+A => inst2.IN1
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Aout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst1|Compare_2:inst|Compare_1:inst1
+eq <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst5.IN0
+A => inst.IN1
+A => inst4.IN0
+A => inst2.IN1
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Aout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst1|Compare_2:inst2
+equal <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+x[0] => Compare_1:inst1.A
+x[1] => Compare_1:inst.A
+y[0] => Compare_1:inst1.B
+y[1] => Compare_1:inst.B
+y_out <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+x_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst1|Compare_2:inst2|Compare_1:inst
+eq <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst5.IN0
+A => inst.IN1
+A => inst4.IN0
+A => inst2.IN1
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Aout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst1|Compare_2:inst2|Compare_1:inst1
+eq <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst5.IN0
+A => inst.IN1
+A => inst4.IN0
+A => inst2.IN1
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Aout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst20
+Cout <= fulladder:inst3.Cout
+A[0] => fulladder:inst.A
+A[1] => fulladder:inst1.A
+A[2] => fulladder:inst2.A
+A[3] => fulladder:inst3.A
+B[0] => fulladder:inst.B
+B[1] => fulladder:inst1.B
+B[2] => fulladder:inst2.B
+B[3] => fulladder:inst3.B
+Sum[0] <= fulladder:inst.Sum
+Sum[1] <= fulladder:inst1.Sum
+Sum[2] <= fulladder:inst2.Sum
+Sum[3] <= fulladder:inst3.Sum
+
+
+|dividable11|fourbit_adder:inst20|fulladder:inst3
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst20|fulladder:inst3|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst20|fulladder:inst3|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst20|fulladder:inst2
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst20|fulladder:inst2|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst20|fulladder:inst2|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst20|fulladder:inst1
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst20|fulladder:inst1|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst20|fulladder:inst1|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst20|fulladder:inst
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst20|fulladder:inst|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst20|fulladder:inst|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst
+Cout <= fulladder:inst3.Cout
+A[0] => fulladder:inst.A
+A[1] => fulladder:inst1.A
+A[2] => fulladder:inst2.A
+A[3] => fulladder:inst3.A
+B[0] => fulladder:inst.B
+B[1] => fulladder:inst1.B
+B[2] => fulladder:inst2.B
+B[3] => fulladder:inst3.B
+Sum[0] <= fulladder:inst.Sum
+Sum[1] <= fulladder:inst1.Sum
+Sum[2] <= fulladder:inst2.Sum
+Sum[3] <= fulladder:inst3.Sum
+
+
+|dividable11|fourbit_adder:inst|fulladder:inst3
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst|fulladder:inst3|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst|fulladder:inst3|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst|fulladder:inst2
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst|fulladder:inst2|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst|fulladder:inst2|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst|fulladder:inst1
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst|fulladder:inst1|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst|fulladder:inst1|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst|fulladder:inst
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst|fulladder:inst|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst|fulladder:inst|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst12
+Cout <= fulladder:inst3.Cout
+A[0] => fulladder:inst.A
+A[1] => fulladder:inst1.A
+A[2] => fulladder:inst2.A
+A[3] => fulladder:inst3.A
+B[0] => fulladder:inst.B
+B[1] => fulladder:inst1.B
+B[2] => fulladder:inst2.B
+B[3] => fulladder:inst3.B
+Sum[0] <= fulladder:inst.Sum
+Sum[1] <= fulladder:inst1.Sum
+Sum[2] <= fulladder:inst2.Sum
+Sum[3] <= fulladder:inst3.Sum
+
+
+|dividable11|fourbit_adder:inst12|fulladder:inst3
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst12|fulladder:inst3|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst12|fulladder:inst3|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst12|fulladder:inst2
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst12|fulladder:inst2|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst12|fulladder:inst2|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst12|fulladder:inst1
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst12|fulladder:inst1|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst12|fulladder:inst1|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst12|fulladder:inst
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst12|fulladder:inst|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst12|fulladder:inst|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst2
+eq <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Compare_2:inst2.x[0]
+A[1] => Compare_2:inst2.x[1]
+A[2] => Compare_2:inst.x[0]
+A[3] => Compare_2:inst.x[1]
+B[0] => Compare_2:inst2.y[0]
+B[1] => Compare_2:inst2.y[1]
+B[2] => Compare_2:inst.y[0]
+B[3] => Compare_2:inst.y[1]
+Aout <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+Bout <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst2|Compare_2:inst
+equal <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+x[0] => Compare_1:inst1.A
+x[1] => Compare_1:inst.A
+y[0] => Compare_1:inst1.B
+y[1] => Compare_1:inst.B
+y_out <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+x_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst2|Compare_2:inst|Compare_1:inst
+eq <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst5.IN0
+A => inst.IN1
+A => inst4.IN0
+A => inst2.IN1
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Aout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst2|Compare_2:inst|Compare_1:inst1
+eq <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst5.IN0
+A => inst.IN1
+A => inst4.IN0
+A => inst2.IN1
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Aout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst2|Compare_2:inst2
+equal <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+x[0] => Compare_1:inst1.A
+x[1] => Compare_1:inst.A
+y[0] => Compare_1:inst1.B
+y[1] => Compare_1:inst.B
+y_out <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+x_out <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst2|Compare_2:inst2|Compare_1:inst
+eq <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst5.IN0
+A => inst.IN1
+A => inst4.IN0
+A => inst2.IN1
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Aout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|Compare_4:inst2|Compare_2:inst2|Compare_1:inst1
+eq <= inst.DB_MAX_OUTPUT_PORT_TYPE
+B => inst.IN0
+B => inst3.IN0
+B => inst5.IN0
+A => inst.IN1
+A => inst4.IN0
+A => inst2.IN1
+Bout <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+Aout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst21
+Cout <= fulladder:inst3.Cout
+A[0] => fulladder:inst.A
+A[1] => fulladder:inst1.A
+A[2] => fulladder:inst2.A
+A[3] => fulladder:inst3.A
+B[0] => fulladder:inst.B
+B[1] => fulladder:inst1.B
+B[2] => fulladder:inst2.B
+B[3] => fulladder:inst3.B
+Sum[0] <= fulladder:inst.Sum
+Sum[1] <= fulladder:inst1.Sum
+Sum[2] <= fulladder:inst2.Sum
+Sum[3] <= fulladder:inst3.Sum
+
+
+|dividable11|fourbit_adder:inst21|fulladder:inst3
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst21|fulladder:inst3|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst21|fulladder:inst3|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst21|fulladder:inst2
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst21|fulladder:inst2|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst21|fulladder:inst2|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst21|fulladder:inst1
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst21|fulladder:inst1|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst21|fulladder:inst1|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst21|fulladder:inst
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst21|fulladder:inst|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst21|fulladder:inst|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst3
+Cout <= fulladder:inst3.Cout
+A[0] => fulladder:inst.A
+A[1] => fulladder:inst1.A
+A[2] => fulladder:inst2.A
+A[3] => fulladder:inst3.A
+B[0] => fulladder:inst.B
+B[1] => fulladder:inst1.B
+B[2] => fulladder:inst2.B
+B[3] => fulladder:inst3.B
+Sum[0] <= fulladder:inst.Sum
+Sum[1] <= fulladder:inst1.Sum
+Sum[2] <= fulladder:inst2.Sum
+Sum[3] <= fulladder:inst3.Sum
+
+
+|dividable11|fourbit_adder:inst3|fulladder:inst3
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst3|fulladder:inst3|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst3|fulladder:inst3|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst3|fulladder:inst2
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst3|fulladder:inst2|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst3|fulladder:inst2|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst3|fulladder:inst1
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst3|fulladder:inst1|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst3|fulladder:inst1|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst3|fulladder:inst
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst3|fulladder:inst|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst3|fulladder:inst|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst16
+Cout <= fulladder:inst3.Cout
+A[0] => fulladder:inst.A
+A[1] => fulladder:inst1.A
+A[2] => fulladder:inst2.A
+A[3] => fulladder:inst3.A
+B[0] => fulladder:inst.B
+B[1] => fulladder:inst1.B
+B[2] => fulladder:inst2.B
+B[3] => fulladder:inst3.B
+Sum[0] <= fulladder:inst.Sum
+Sum[1] <= fulladder:inst1.Sum
+Sum[2] <= fulladder:inst2.Sum
+Sum[3] <= fulladder:inst3.Sum
+
+
+|dividable11|fourbit_adder:inst16|fulladder:inst3
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst16|fulladder:inst3|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst16|fulladder:inst3|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst16|fulladder:inst2
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst16|fulladder:inst2|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst16|fulladder:inst2|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst16|fulladder:inst1
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst16|fulladder:inst1|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst16|fulladder:inst1|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst16|fulladder:inst
+Sum <= halfadder:inst1.Sum
+A => halfadder:inst.A
+B => halfadder:inst.B
+Cin => halfadder:inst1.B
+Cout <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst16|fulladder:inst|halfadder:inst1
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|dividable11|fourbit_adder:inst16|fulladder:inst|halfadder:inst
+Sum <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B => inst2.IN0
+B => inst.IN1
+A => inst2.IN1
+A => inst.IN0
+Carry <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+

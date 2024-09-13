@@ -1,0 +1,1444 @@
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 12:08:06 on Aug 12,2024
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 41880000 41d00000 420c0000 
+# 42280000 42180000 42440000 
+# 425c0000 42680000 42540000 
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(99)
+#    Time: 355 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 99
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 40e00000 41100000 41300000 
+# 41700000 41880000 419c0000 
+# 41bc0000 41c80000 41e00000 
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(99)
+#    Time: 355 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 99
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 40000000 40000000 40000000 
+# 40000000 40000000 40000000 
+# 40000000 40000000 40000000 
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(99)
+#    Time: 355 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 99
+# Compile of ConvCalculator.v failed with 1 errors.
+# Compile of TB.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 40000000 40000000 40000000 
+# 40000000 40000000 40000000 
+# 40000000 40000000 40000000 
+#   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(103)
+#    Time: 355 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 103
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 40000000 40000000 40000000 
+# 40000000 40000000 40000000 
+# 40000000 40000000 40000000 
+# output size:   3** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(103)
+#    Time: 355 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 103
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 40000000 40000000 40000000 
+# 40000000 40000000 40000000 
+# 40000000 40000000 40000000 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(103)
+#    Time: 355 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 103
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 40100000 40d80000 41400000 
+# 412c0000 40b80000 41340000 
+# 41400000 40a80000 40a80000 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(103)
+#    Time: 355 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 103
+# Compile of ConvCalculator.v failed with 1 errors.
+# Compile of TB.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ConvCalculator.v failed with 2 errors.
+# Compile of TB.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 40100000 40d80000 41400000 
+# 412c0000 40b80000 41340000 
+# 41400000 40a80000 40a80000 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(103)
+#    Time: 355 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 103
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 40100000 40d80000 41400000 
+# 412c0000 40b80000 41340000 
+# 41400000 40a80000 40a80000 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(103)
+#    Time: 355 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 103
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 40e00000 41100000 41300000 
+# 41700000 41880000 419c0000 
+# 41bc0000 41c80000 41e00000 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(103)
+#    Time: 355 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 103
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 40100000 40d80000 41400000 
+# 412c0000 40b80000 41340000 
+# 41400000 40a80000 40a80000 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(103)
+#    Time: 355 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 103
+# Compile of ConvCalculator.v failed with 1 errors.
+# Compile of TB.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# xxxxxxxx 40100000 40d80000 
+# 41400000 412c0000 40b80000 
+# 41340000 41400000 40a80000 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(110)
+#    Time: 445 ps  Iteration: 1  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 110
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 40100000 40d80000 41400000 
+# 412c0000 40b80000 41340000 
+# 41400000 40a80000 40a80000 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(111)
+#    Time: 455 ps  Iteration: 1  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 111
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# xxxxxxxx xxxxxxxx xxxxxxxx 
+# xxxxxxxx xxxxxxxx xxxxxxxx 
+# xxxxxxxx xxxxxxxx xxxxxxxx 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(167)
+#    Time: 1255 ps  Iteration: 1  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 167
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# xxxxxxxx xxxxxxxx xxxxxxxx 
+# xxxxxxxx xxxxxxxx xxxxxxxx 
+# xxxxxxxx xxxxxxxx xxxxxxxx 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(167)
+#    Time: 1155 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 167
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# salam1065353216
+# salam1065353216
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam1065353216
+# salam1065353216
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam1065353216
+# salam1065353216
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam1067450368
+# salam1067450368
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam1067450368
+# salam1067450368
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam1067450368
+# salam1067450368
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam1069547520
+# salam1069547520
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam1069547520
+# salam1069547520
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam1069547520
+# salam1069547520
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# salam         x
+# Output matrix:
+# xxxxxxxx xxxxxxxx xxxxxxxx 
+# xxxxxxxx xxxxxxxx xxxxxxxx 
+# xxxxxxxx xxxxxxxx xxxxxxxx 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(167)
+#    Time: 1155 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 167
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1092354048
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1092354048
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1092354048
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1093926912
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1093926912
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1093926912
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1095499776
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1095499776
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1095499776
+# Output matrix:
+# 411c0000 411c0000 411c0000 
+# 41340000 41340000 41340000 
+# 414c0000 414c0000 414c0000 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(200)
+#    Time: 1255 ps  Iteration: 1  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 200
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# salam 1073741824
+# salam 1073741824
+# salam 1073741824
+# salam 1073741824
+# salam 1073741824
+# salam 1073741824
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# Output matrix:
+# xxxxxxxx 
+# output size:   1
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(231)
+#    Time: 1355 ps  Iteration: 1  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 231
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# salam 1073741824
+# salam 1073741824
+# salam 1073741824
+# salam 1073741824
+# salam 1073741824
+# salam 1073741824
+# salam 1073741824
+# salam 1073741824
+# salam 1073741824
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# salam          x
+# Output matrix:
+# xxxxxxxx 
+# output size:   1
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(231)
+#    Time: 1355 ps  Iteration: 1  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 231
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# Output matrix:
+# 41f00000
+# output size:   1
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(232)
+#    Time: 1285 ps  Iteration: 1  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 232
+# Compile of ConvCalculator.v was successful.
+# Compile of TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.ConvCalculator
+run -all
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1092354048
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1092354048
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1065353216
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1074790400
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1081081856
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1085276160
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1092354048
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1093926912
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1093926912
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1067450368
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1076887552
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1083179008
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1087373312
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1091305472
+# salam 1093926912
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1095499776
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1095499776
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1069547520
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1078984704
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1084751872
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1089470464
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1092616192
+# salam 1095499776
+# Output matrix:
+# 411c0000 411c0000 411c0000 
+# 41340000 41340000 41340000 
+# 414c0000 414c0000 414c0000 
+# output size:   3
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/Excersise/TB.v(200)
+#    Time: 1255 ps  Iteration: 1  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/Excersise/TB.v line 200
+# End time: 20:53:00 on Aug 12,2024, Elapsed time: 8:44:54
+# Errors: 0, Warnings: 1

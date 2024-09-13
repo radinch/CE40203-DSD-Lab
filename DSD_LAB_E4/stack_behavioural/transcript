@@ -1,0 +1,180 @@
+# Compile of stack_behavioural.v was successful.
+# Compile of stack_behavioural.v was successful.
+# Compile of stack_behavioural.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 15:36:19 on Jul 15,2024
+# Loading work.tb
+# Loading work.stack_behavioural
+add wave -position insertpoint sim:/tb/*
+run -all
+# Time: 0, clk: 0, rstN: 0, data_in: 0000, push: 0, pop: 0, data_out: 0000, full: 0, empty: 1
+# Time: 5, clk: 1, rstN: 0, data_in: 0000, push: 0, pop: 0, data_out: 0000, full: 0, empty: 1
+# Testing Push Operations
+# Time: 10, clk: 0, rstN: 1, data_in: 0000, push: 0, pop: 0, data_out: 0000, full: 0, empty: 1
+# Time: 15, clk: 1, rstN: 1, data_in: 0000, push: 0, pop: 0, data_out: 0000, full: 0, empty: 1
+# Time: 20, clk: 0, rstN: 1, data_in: 0001, push: 1, pop: 0, data_out: 0000, full: 0, empty: 1
+# Time: 25, clk: 1, rstN: 1, data_in: 0001, push: 1, pop: 0, data_out: 0000, full: 0, empty: 1
+# Time: 30, clk: 0, rstN: 1, data_in: 0001, push: 0, pop: 0, data_out: 0000, full: 0, empty: 1
+# Time: 35, clk: 1, rstN: 1, data_in: 0001, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 40, clk: 0, rstN: 1, data_in: 0010, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 45, clk: 1, rstN: 1, data_in: 0010, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 50, clk: 0, rstN: 1, data_in: 0010, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 55, clk: 1, rstN: 1, data_in: 0010, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 60, clk: 0, rstN: 1, data_in: 0011, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 65, clk: 1, rstN: 1, data_in: 0011, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 70, clk: 0, rstN: 1, data_in: 0011, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 75, clk: 1, rstN: 1, data_in: 0011, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 80, clk: 0, rstN: 1, data_in: 0100, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 85, clk: 1, rstN: 1, data_in: 0100, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 90, clk: 0, rstN: 1, data_in: 0100, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 95, clk: 1, rstN: 1, data_in: 0100, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 100, clk: 0, rstN: 1, data_in: 0101, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 105, clk: 1, rstN: 1, data_in: 0101, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 110, clk: 0, rstN: 1, data_in: 0101, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 115, clk: 1, rstN: 1, data_in: 0101, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 120, clk: 0, rstN: 1, data_in: 0110, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 125, clk: 1, rstN: 1, data_in: 0110, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 130, clk: 0, rstN: 1, data_in: 0110, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 135, clk: 1, rstN: 1, data_in: 0110, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 140, clk: 0, rstN: 1, data_in: 0111, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 145, clk: 1, rstN: 1, data_in: 0111, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 150, clk: 0, rstN: 1, data_in: 0111, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 155, clk: 1, rstN: 1, data_in: 0111, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 160, clk: 0, rstN: 1, data_in: 1000, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 165, clk: 1, rstN: 1, data_in: 1000, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Testing Pop Operations
+# Time: 170, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 175, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0000, full: 1, empty: 0
+# Time: 180, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0000, full: 1, empty: 0
+# Time: 185, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: xxxx, full: 1, empty: 0
+# Time: 190, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: xxxx, full: 1, empty: 0
+# Time: 195, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: xxxx, full: 0, empty: 0
+# Time: 200, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: xxxx, full: 0, empty: 0
+# Time: 205, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 1000, full: 0, empty: 0
+# Time: 210, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 1000, full: 0, empty: 0
+# Time: 215, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 1000, full: 0, empty: 0
+# Time: 220, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 1000, full: 0, empty: 0
+# Time: 225, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0111, full: 0, empty: 0
+# Time: 230, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0111, full: 0, empty: 0
+# Time: 235, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0111, full: 0, empty: 0
+# Time: 240, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0111, full: 0, empty: 0
+# Time: 245, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0110, full: 0, empty: 0
+# Time: 250, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0110, full: 0, empty: 0
+# Time: 255, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0110, full: 0, empty: 0
+# Time: 260, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0110, full: 0, empty: 0
+# Time: 265, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0101, full: 0, empty: 0
+# Time: 270, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0101, full: 0, empty: 0
+# Time: 275, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0101, full: 0, empty: 0
+# Time: 280, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0101, full: 0, empty: 0
+# Time: 285, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0100, full: 0, empty: 0
+# Time: 290, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0100, full: 0, empty: 0
+# Time: 295, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0100, full: 0, empty: 0
+# Time: 300, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0100, full: 0, empty: 0
+# Time: 305, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0011, full: 0, empty: 0
+# Time: 310, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0011, full: 0, empty: 0
+# Time: 315, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0011, full: 0, empty: 0
+# Time: 320, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0011, full: 0, empty: 0
+# Time: 325, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0010, full: 0, empty: 0
+# Testing Push and Pop Simultaneously
+# Time: 330, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0010, full: 0, empty: 0
+# Time: 335, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0010, full: 0, empty: 1
+# Time: 340, clk: 0, rstN: 1, data_in: 1010, push: 1, pop: 1, data_out: 0010, full: 0, empty: 1
+# Time: 345, clk: 1, rstN: 1, data_in: 1010, push: 1, pop: 1, data_out: 0010, full: 0, empty: 1
+# Time: 350, clk: 0, rstN: 1, data_in: 1010, push: 0, pop: 0, data_out: 0010, full: 0, empty: 1
+# Time: 355, clk: 1, rstN: 1, data_in: 1010, push: 0, pop: 0, data_out: 0010, full: 0, empty: 1
+# ** Note: $finish    : C:/Users/ideapad 5/Desktop/E4/tb.v(67)
+#    Time: 360 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at C:/Users/ideapad 5/Desktop/E4/tb.v line 67
+# Compile of stack_behavioural.v was successful.
+# Compile of tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.stack_behavioural
+run -all
+# Time: 0, clk: 0, rstN: 0, data_in: 0000, push: 0, pop: 0, data_out: 0000, full: 0, empty: 1
+# Time: 5, clk: 1, rstN: 0, data_in: 0000, push: 0, pop: 0, data_out: 0000, full: 0, empty: 1
+# Testing Push Operations
+# Time: 10, clk: 0, rstN: 1, data_in: 0000, push: 0, pop: 0, data_out: 0000, full: 0, empty: 1
+# Time: 15, clk: 1, rstN: 1, data_in: 0000, push: 0, pop: 0, data_out: 0000, full: 0, empty: 1
+# Time: 20, clk: 0, rstN: 1, data_in: 0001, push: 1, pop: 0, data_out: 0000, full: 0, empty: 1
+# Time: 25, clk: 1, rstN: 1, data_in: 0001, push: 1, pop: 0, data_out: 0000, full: 0, empty: 1
+# Time: 30, clk: 0, rstN: 1, data_in: 0001, push: 0, pop: 0, data_out: 0000, full: 0, empty: 1
+# Time: 35, clk: 1, rstN: 1, data_in: 0001, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 40, clk: 0, rstN: 1, data_in: 0010, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 45, clk: 1, rstN: 1, data_in: 0010, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 50, clk: 0, rstN: 1, data_in: 0010, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 55, clk: 1, rstN: 1, data_in: 0010, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 60, clk: 0, rstN: 1, data_in: 0011, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 65, clk: 1, rstN: 1, data_in: 0011, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 70, clk: 0, rstN: 1, data_in: 0011, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 75, clk: 1, rstN: 1, data_in: 0011, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 80, clk: 0, rstN: 1, data_in: 0100, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 85, clk: 1, rstN: 1, data_in: 0100, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 90, clk: 0, rstN: 1, data_in: 0100, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 95, clk: 1, rstN: 1, data_in: 0100, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 100, clk: 0, rstN: 1, data_in: 0101, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 105, clk: 1, rstN: 1, data_in: 0101, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 110, clk: 0, rstN: 1, data_in: 0101, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 115, clk: 1, rstN: 1, data_in: 0101, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 120, clk: 0, rstN: 1, data_in: 0110, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 125, clk: 1, rstN: 1, data_in: 0110, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 130, clk: 0, rstN: 1, data_in: 0110, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 135, clk: 1, rstN: 1, data_in: 0110, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 140, clk: 0, rstN: 1, data_in: 0111, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 145, clk: 1, rstN: 1, data_in: 0111, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 150, clk: 0, rstN: 1, data_in: 0111, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 155, clk: 1, rstN: 1, data_in: 0111, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 160, clk: 0, rstN: 1, data_in: 1000, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 165, clk: 1, rstN: 1, data_in: 1000, push: 1, pop: 0, data_out: 0000, full: 0, empty: 0
+# Testing Pop Operations
+# Time: 170, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0000, full: 0, empty: 0
+# Time: 175, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0000, full: 1, empty: 0
+# Time: 180, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0000, full: 1, empty: 0
+# Time: 185, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: xxxx, full: 1, empty: 0
+# Time: 190, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: xxxx, full: 1, empty: 0
+# Time: 195, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: xxxx, full: 0, empty: 0
+# Time: 200, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: xxxx, full: 0, empty: 0
+# Time: 205, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 1000, full: 0, empty: 0
+# Time: 210, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 1000, full: 0, empty: 0
+# Time: 215, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 1000, full: 0, empty: 0
+# Time: 220, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 1000, full: 0, empty: 0
+# Time: 225, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0111, full: 0, empty: 0
+# Time: 230, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0111, full: 0, empty: 0
+# Time: 235, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0111, full: 0, empty: 0
+# Time: 240, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0111, full: 0, empty: 0
+# Time: 245, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0110, full: 0, empty: 0
+# Time: 250, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0110, full: 0, empty: 0
+# Time: 255, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0110, full: 0, empty: 0
+# Time: 260, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0110, full: 0, empty: 0
+# Time: 265, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0101, full: 0, empty: 0
+# Time: 270, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0101, full: 0, empty: 0
+# Time: 275, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0101, full: 0, empty: 0
+# Time: 280, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0101, full: 0, empty: 0
+# Time: 285, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0100, full: 0, empty: 0
+# Time: 290, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0100, full: 0, empty: 0
+# Time: 295, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0100, full: 0, empty: 0
+# Time: 300, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0100, full: 0, empty: 0
+# Time: 305, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0011, full: 0, empty: 0
+# Time: 310, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0011, full: 0, empty: 0
+# Time: 315, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0011, full: 0, empty: 0
+# Time: 320, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0011, full: 0, empty: 0
+# Time: 325, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 1, data_out: 0010, full: 0, empty: 0
+# Testing Push and Pop Simultaneously
+# Time: 330, clk: 0, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0010, full: 0, empty: 0
+# Time: 335, clk: 1, rstN: 1, data_in: 1000, push: 0, pop: 0, data_out: 0010, full: 0, empty: 1
+# Time: 340, clk: 0, rstN: 1, data_in: 1010, push: 1, pop: 1, data_out: 0010, full: 0, empty: 1
+# Time: 345, clk: 1, rstN: 1, data_in: 1010, push: 1, pop: 1, data_out: 0010, full: 0, empty: 1
+# Time: 350, clk: 0, rstN: 1, data_in: 1010, push: 0, pop: 0, data_out: 0010, full: 0, empty: 1
+# Time: 355, clk: 1, rstN: 1, data_in: 1010, push: 0, pop: 0, data_out: 0010, full: 0, empty: 1
+# ** Note: $finish    : C:/Users/ideapad 5/Desktop/E4/tb.v(67)
+#    Time: 360 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at C:/Users/ideapad 5/Desktop/E4/tb.v line 67
+# End time: 15:41:04 on Jul 15,2024, Elapsed time: 0:04:45
+# Errors: 0, Warnings: 1

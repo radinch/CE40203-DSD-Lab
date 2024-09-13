@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ideapad 5/Desktop/E8
+vReceiver
+Z0 !s110 1722266650
+!i10b 1
+!s100 z32l6FDi4RQUFMJ[4@fC?3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[9ZVgzo]XgVYDnbGmIR>A2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/ideapad 5/Desktop/E7
+w1722258808
+8C:\Users\ideapad 5\Desktop\E7\Receiver.v
+FC:\Users\ideapad 5\Desktop\E7\Receiver.v
+!i122 55
+L0 1 56
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1722266650.000000
+!s107 C:\Users\ideapad 5\Desktop\E7\Receiver.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ideapad 5\Desktop\E7\Receiver.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@receiver
+vSender
+R0
+!i10b 1
+!s100 =l7M0E@NPfJEo:bfeDPa?0
+R1
+I47[kAkYYhC0c7SZWmCT>?3
+R2
+R3
+w1722256451
+8C:\Users\ideapad 5\Desktop\E7\Sender.v
+FC:\Users\ideapad 5\Desktop\E7\Sender.v
+!i122 54
+L0 1 66
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\ideapad 5\Desktop\E7\Sender.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ideapad 5\Desktop\E7\Sender.v|
+!i113 1
+R6
+R7
+n@sender
+vTB
+R0
+!i10b 1
+!s100 ><@`>XBKc=<QbIMD0V?ZJ3
+R1
+I1nDlXEG^=:c<Bo6S]5Oz]0
+R2
+R3
+w1722266635
+8C:\Users\ideapad 5\Desktop\E7\TB.v
+FC:\Users\ideapad 5\Desktop\E7\TB.v
+!i122 57
+L0 1 54
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\ideapad 5\Desktop\E7\TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ideapad 5\Desktop\E7\TB.v|
+!i113 1
+R6
+R7
+n@t@b
+vUART
+R0
+!i10b 1
+!s100 bUUP5B<oGkiiVY:h3?Cca1
+R1
+I08Qm[I5lDVMzbgSGS78ak0
+R2
+R3
+w1722264408
+8C:\Users\ideapad 5\Desktop\E7\UART.v
+FC:\Users\ideapad 5\Desktop\E7\UART.v
+!i122 56
+L0 1 13
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:\Users\ideapad 5\Desktop\E7\UART.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ideapad 5\Desktop\E7\UART.v|
+!i113 1
+R6
+R7
+n@u@a@r@t

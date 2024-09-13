@@ -1,0 +1,224 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ideapad 5/Desktop/E7
+vadd_sub
+Z0 !s110 1722244650
+!i10b 1
+!s100 ;eGAd1PmBBfANBJ2QHh^A0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+INbb2[:K?KR=4o8JPfO^f52
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/ideapad 5/Desktop/E8
+w1722195585
+8C:/Users/ideapad 5/Desktop/E8/add_sub.v
+FC:/Users/ideapad 5/Desktop/E8/add_sub.v
+!i122 80
+L0 3 11
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1722244650.000000
+!s107 macros.v|C:/Users/ideapad 5/Desktop/E8/add_sub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ideapad 5/Desktop/E8/add_sub.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vaddsub_TB
+R0
+!i10b 1
+!s100 [;a8Zg^CfmCCT?WENLmL91
+R1
+I`59OS>V8[M>eGl^T3AYBI3
+R2
+R3
+w1722196859
+8C:/Users/ideapad 5/Desktop/E8/add_subTB.v
+FC:/Users/ideapad 5/Desktop/E8/add_subTB.v
+!i122 81
+L0 3 49
+R4
+r1
+!s85 0
+31
+R5
+!s107 macros.v|C:/Users/ideapad 5/Desktop/E8/add_subTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ideapad 5/Desktop/E8/add_subTB.v|
+!i113 1
+R6
+R7
+naddsub_@t@b
+vALU
+Z8 !s110 1722244651
+!i10b 1
+!s100 Z8?F^F787cf`Kk6:_Wd8>2
+R1
+IBZQJJ<4:m0i:[Y0foFm9N1
+R2
+R3
+w1722198626
+8C:/Users/ideapad 5/Desktop/E8/ALU.v
+FC:/Users/ideapad 5/Desktop/E8/ALU.v
+!i122 84
+L0 3 13
+R4
+r1
+!s85 0
+31
+Z9 !s108 1722244651.000000
+!s107 macros.v|C:/Users/ideapad 5/Desktop/E8/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ideapad 5/Desktop/E8/ALU.v|
+!i113 1
+R6
+R7
+n@a@l@u
+vData_mem
+R8
+!i10b 1
+!s100 68<E>IGoSdR4OJ9=@?fkP1
+R1
+I?B^i]16R20`R8zTSb[k1F0
+R2
+R3
+w1722201271
+8C:/Users/ideapad 5/Desktop/E8/Data_mem.v
+FC:/Users/ideapad 5/Desktop/E8/Data_mem.v
+!i122 86
+L0 3 19
+R4
+r1
+!s85 0
+31
+R9
+!s107 macros.v|C:/Users/ideapad 5/Desktop/E8/Data_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ideapad 5/Desktop/E8/Data_mem.v|
+!i113 1
+R6
+R7
+n@data_mem
+vIF_mem
+R8
+!i10b 1
+!s100 ne6VTJT^Ond]YCBYT2TI:1
+R1
+I7BolcEEl`e:TKMVlCmD7i0
+R2
+R3
+w1722201142
+8C:/Users/ideapad 5/Desktop/E8/IF_mem.v
+FC:/Users/ideapad 5/Desktop/E8/IF_mem.v
+!i122 85
+L0 1 23
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ideapad 5/Desktop/E8/IF_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ideapad 5/Desktop/E8/IF_mem.v|
+!i113 1
+R6
+R7
+n@i@f_mem
+vmultiply
+R8
+!i10b 1
+!s100 `PC:e7MPo7:]D?9HKTO]h2
+R1
+I<HAY=]R@ZPAkAH]Wd0lQ`1
+R2
+R3
+w1722197397
+8C:/Users/ideapad 5/Desktop/E8/multiply.v
+FC:/Users/ideapad 5/Desktop/E8/multiply.v
+!i122 82
+L0 3 9
+R4
+r1
+!s85 0
+31
+R9
+!s107 macros.v|C:/Users/ideapad 5/Desktop/E8/multiply.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ideapad 5/Desktop/E8/multiply.v|
+!i113 1
+R6
+R7
+vmultiplyTB
+R8
+!i10b 1
+!s100 Q`BK^Pe7M<NXEYYdiSDkI0
+R1
+ISXY=^nM914kP1[Fijoc=h1
+R2
+R3
+w1722198062
+8C:/Users/ideapad 5/Desktop/E8/multiplyTB.v
+FC:/Users/ideapad 5/Desktop/E8/multiplyTB.v
+!i122 83
+L0 3 43
+R4
+r1
+!s85 0
+31
+R9
+!s107 macros.v|C:/Users/ideapad 5/Desktop/E8/multiplyTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ideapad 5/Desktop/E8/multiplyTB.v|
+!i113 1
+R6
+R7
+nmultiply@t@b
+vpipeline
+Z10 !s110 1722244652
+!i10b 1
+!s100 kR7Ah_m6cL`SD]m?JQXFe0
+R1
+IW2?dMzjRG3H?PFOQISnLV2
+R2
+R3
+w1722241374
+8C:/Users/ideapad 5/Desktop/E8/pipeline.v
+FC:/Users/ideapad 5/Desktop/E8/pipeline.v
+!i122 87
+L0 3 48
+R4
+r1
+!s85 0
+31
+Z11 !s108 1722244652.000000
+!s107 macros.v|C:/Users/ideapad 5/Desktop/E8/pipeline.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ideapad 5/Desktop/E8/pipeline.v|
+!i113 1
+R6
+R7
+vpipelineTB
+R10
+!i10b 1
+!s100 A>T;<`j2N;Ri2zZ>Ugaab2
+R1
+I3Y`Qol<;_BTW625Uiaz483
+R2
+R3
+w1722244621
+8C:/Users/ideapad 5/Desktop/E8/pipelineTB.v
+FC:/Users/ideapad 5/Desktop/E8/pipelineTB.v
+!i122 88
+L0 1 19
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ideapad 5/Desktop/E8/pipelineTB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ideapad 5/Desktop/E8/pipelineTB.v|
+!i113 1
+R6
+R7
+npipeline@t@b

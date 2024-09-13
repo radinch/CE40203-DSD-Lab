@@ -1,0 +1,22 @@
+{C:/Users/ideapad 5/Desktop/E3/FourBitComparator.v} {1 {vlog -work work -stats=none {C:\Users\ideapad 5\Desktop\E3\FourBitComparator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FourBitComparator
+
+Top level modules:
+	FourBitComparator
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E3/OneBitComparator.v} {1 {vlog -work work -stats=none {C:\Users\ideapad 5\Desktop\E3\OneBitComparator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module OneBitComparator
+
+Top level modules:
+	OneBitComparator
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E3/tb.v} {1 {vlog -work work -stats=none {C:\Users\ideapad 5\Desktop\E3\tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb
+
+Top level modules:
+	tb
+
+} {} {}}

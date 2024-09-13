@@ -1,0 +1,29 @@
+{C:/Users/ideapad 5/Desktop/E7/UART.v} {1 {vlog -work work -stats=none {C:\Users\ideapad 5\Desktop\E7\UART.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module UART
+
+Top level modules:
+	UART
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E7/Receiver.v} {1 {vlog -work work -stats=none {C:\Users\ideapad 5\Desktop\E7\Receiver.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Receiver
+
+Top level modules:
+	Receiver
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E7/Sender.v} {1 {vlog -work work -stats=none {C:\Users\ideapad 5\Desktop\E7\Sender.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Sender
+
+Top level modules:
+	Sender
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E7/TB.v} {1 {vlog -work work -stats=none {C:\Users\ideapad 5\Desktop\E7\TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}}

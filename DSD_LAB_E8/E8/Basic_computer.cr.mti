@@ -1,0 +1,67 @@
+{C:/Users/ideapad 5/Desktop/E8/pipeline.v} {1 {vlog -work work -stats=none {C:/Users/ideapad 5/Desktop/E8/pipeline.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pipeline
+
+Top level modules:
+	pipeline
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E8/add_sub.v} {1 {vlog -work work -stats=none {C:/Users/ideapad 5/Desktop/E8/add_sub.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module add_sub
+
+Top level modules:
+	add_sub
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E8/multiplyTB.v} {1 {vlog -work work -stats=none {C:/Users/ideapad 5/Desktop/E8/multiplyTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiplyTB
+
+Top level modules:
+	multiplyTB
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E8/ALU.v} {1 {vlog -work work -stats=none {C:/Users/ideapad 5/Desktop/E8/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E8/add_subTB.v} {1 {vlog -work work -stats=none {C:/Users/ideapad 5/Desktop/E8/add_subTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addsub_TB
+
+Top level modules:
+	addsub_TB
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E8/multiply.v} {1 {vlog -work work -stats=none {C:/Users/ideapad 5/Desktop/E8/multiply.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multiply
+
+Top level modules:
+	multiply
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E8/Data_mem.v} {1 {vlog -work work -stats=none {C:/Users/ideapad 5/Desktop/E8/Data_mem.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Data_mem
+
+Top level modules:
+	Data_mem
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E8/pipelineTB.v} {1 {vlog -work work -stats=none {C:/Users/ideapad 5/Desktop/E8/pipelineTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pipelineTB
+
+Top level modules:
+	pipelineTB
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E8/macros.v} {1 {vlog -work work -stats=none {C:/Users/ideapad 5/Desktop/E8/macros.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} {C:/Users/ideapad 5/Desktop/E8/IF_mem.v} {1 {vlog -work work -stats=none {C:/Users/ideapad 5/Desktop/E8/IF_mem.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IF_mem
+
+Top level modules:
+	IF_mem
+
+} {} {}}

@@ -1,0 +1,190 @@
+# Compile of StackBasedProcessor.v failed with 1 errors.
+# Compile of StackBasedProcessor.v was successful.
+# Compile of StackBasedProcessor.v failed with 1 errors.
+# Compile of InfixCalculator.v failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v failed with 4 errors.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v failed with 4 errors.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v was successful.
+# Compile of TB.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v was successful.
+# Compile of TB.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 17:46:30 on Aug 05,2024
+# Loading work.TB
+# Loading work.InfixCalculator
+# Loading work.StackBasedProcessor
+add wave -position insertpoint sim:/TB/*
+run -all
+# ((  13 + 23) * 2) - 12 =  -14, error = 1
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E10/TB.v(32)
+#    Time: 105 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E10/TB.v line 32
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/TB/cal/processor/*
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 17:49:35 on Aug 05,2024, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 15
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 17:49:44 on Aug 05,2024
+# Loading work.TB
+# Loading work.InfixCalculator
+# Loading work.StackBasedProcessor
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/TB/*
+add wave -position insertpoint sim:/TB/cal/processor/*
+run -all
+# ((  13 + 23) * 2) - 12 =  -14, error = 1
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E10/TB.v(32)
+#    Time: 105 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E10/TB.v line 32
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v was successful.
+# Compile of TB.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.InfixCalculator
+# Loading work.StackBasedProcessor
+run -all
+# ((  13 + 23) * 2) - 12 =   14, error = 0
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E10/TB.v(32)
+#    Time: 105 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E10/TB.v line 32
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v was successful.
+# Compile of TB.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.InfixCalculator
+# Loading work.StackBasedProcessor
+run -all
+# ((  13 + 23) * 2) - 12 =    x, error = x
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E10/TB.v(32)
+#    Time: 105 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E10/TB.v line 32
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v was successful.
+# Compile of TB.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.InfixCalculator
+# Loading work.StackBasedProcessor
+run -all
+# ((  13 + 23) * 2) - 12 =   14, error = 0
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E10/TB.v(32)
+#    Time: 105 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E10/TB.v line 32
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v was successful.
+# Compile of TB.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.InfixCalculator
+# Loading work.StackBasedProcessor
+add wave -position insertpoint  \
+sim:/TB/cal/processor/stack
+run -all
+# ((  13 + 23) * 2) - 12 =   14, error = 0
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E10/TB.v(32)
+#    Time: 105 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E10/TB.v line 32
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v was successful.
+# Compile of TB.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.InfixCalculator
+# Loading work.StackBasedProcessor
+run -all
+# ((  13 + 23) * 2) - 12 =   60, error = 0
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E10/TB.v(32)
+#    Time: 105 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E10/TB.v line 32
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v was successful.
+# Compile of TB.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.InfixCalculator
+# Loading work.StackBasedProcessor
+run -all
+# ((  13 + 23) * 2) - 12 =   60, error = 0
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E10/TB.v(33)
+#    Time: 115 ps  Iteration: 0  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E10/TB.v line 33
+quit -sim
+# End time: 18:18:59 on Aug 05,2024, Elapsed time: 0:29:15
+# Errors: 0, Warnings: 1
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v was successful.
+# Compile of TB.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.TB
+# vsim -gui work.TB 
+# Start time: 18:19:27 on Aug 05,2024
+# Loading work.TB
+# Loading work.InfixCalculator
+# Loading work.StackBasedProcessor
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint sim:/TB/*
+add wave -position insertpoint sim:/TB/cal/processor/*
+add wave -position insertpoint  \
+sim:/TB/cal/processor/stack
+run -all
+# ((  10 + 23) * 2) - 12 =   54, error = 0
+# ((  41 + 23) * 2) - 12 =  116, error = 0
+# (( -13 + 23) * 2) - 12 =    8, error = 1
+# ((-116 + 23) * 2) - 12 =   58, error = 1
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E10/TB.v(45)
+#    Time: 435 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E10/TB.v line 45
+# Compile of StackBasedProcessor.v was successful.
+# Compile of InfixCalculator.v was successful.
+# Compile of TB.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TB
+# Loading work.InfixCalculator
+# Loading work.StackBasedProcessor
+run -all
+# ((  10 + 23) * 2) - 12 =   54, error = 0
+# ((  41 + 23) * 2) - 12 =  116, error = 0
+# (( -13 + 23) * 2) - 12 =    8, error = 1
+# ((-116 + 23) * 2) - 12 =   58, error = 1
+# ** Note: $stop    : C:/Users/ideapad 5/Desktop/E10/TB.v(45)
+#    Time: 435 ps  Iteration: 2  Instance: /TB
+# Break in Module TB at C:/Users/ideapad 5/Desktop/E10/TB.v line 45
+# End time: 20:31:24 on Aug 05,2024, Elapsed time: 2:11:57
+# Errors: 0, Warnings: 1

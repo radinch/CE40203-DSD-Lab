@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vSerialComparator
+Z0 !s110 1721041798
+!i10b 1
+!s100 TTXS1YUO<GJ^5UC73^k7D1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IMWa1@[]N_Po6lGQMN_G2g3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/ideapad 5/Desktop/E3_part2
+w1721040909
+8C:\Users\ideapad 5\Desktop\E3_part2\SerialComparator.v
+FC:\Users\ideapad 5\Desktop\E3_part2\SerialComparator.v
+!i122 12
+L0 1 29
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1721041798.000000
+!s107 C:\Users\ideapad 5\Desktop\E3_part2\SerialComparator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ideapad 5\Desktop\E3_part2\SerialComparator.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@serial@comparator
+vtb
+R0
+!i10b 1
+!s100 a>VQLbTJ[X>KlFm=zC4E93
+R1
+I5GgP;G5@@]aSZPAh;>X<P2
+R2
+R3
+w1721041771
+Z8 8C:\Users\ideapad 5\Desktop\E3_part2\tb.v
+Z9 FC:\Users\ideapad 5\Desktop\E3_part2\tb.v
+!i122 13
+L0 1 105
+R4
+r1
+!s85 0
+31
+R5
+Z10 !s107 C:\Users\ideapad 5\Desktop\E3_part2\tb.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\ideapad 5\Desktop\E3_part2\tb.v|
+!i113 1
+R6
+R7
+vTestBench
+!s110 1721030846
+!i10b 1
+!s100 @G9WSSSW:TR72^gM=4a]g1
+R1
+I@GVFQjmYcaV8bQX>OcX1P3
+R2
+R3
+w1721030839
+R8
+R9
+!i122 2
+L0 1 56
+R4
+r1
+!s85 0
+31
+!s108 1721030846.000000
+R10
+R11
+!i113 1
+R6
+R7
+n@test@bench

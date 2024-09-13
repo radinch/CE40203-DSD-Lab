@@ -1,0 +1,124 @@
+|waitingRoom
+Open <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+T => inst22.IN0
+T => inst.IN0
+Ent => inst22.IN1
+Ent => inst.IN1
+IN => inst22.IN2
+IN => inst25.IN0
+IN => inst.IN2
+set => 4bitCounter:inst2.set
+clk => 4bitCounter:inst2.clk
+OUT => inst24.IN1
+OUT => inst23.IN0
+clr => inst26.IN0
+Close <= 4bitCounter:inst2.isEmpty
+A[0] <= 4bitCounter:inst2.A0
+A[1] <= 4bitCounter:inst2.A1
+A[2] <= 4bitCounter:inst2.A2
+A[3] <= 4bitCounter:inst2.A3
+
+
+|waitingRoom|4bitCounter:inst2
+A3 <= Tflipflop:inst28.Q
+set => Tflipflop:inst28.set
+set => Tflipflop:inst22.set
+set => Tflipflop:inst21.set
+set => Tflipflop:inst.set
+clk => Tflipflop:inst28.clk
+clk => Tflipflop:inst22.clk
+clk => Tflipflop:inst21.clk
+clk => Tflipflop:inst.clk
+E => inst33.IN0
+E => inst27.IN0
+E => inst7.IN0
+E => Tflipflop:inst.T
+clr => Tflipflop:inst.clr
+clr => Tflipflop:inst21.clr
+clr => Tflipflop:inst22.clr
+clr => Tflipflop:inst28.clr
+U => inst6.IN0
+U => inst3.IN0
+A2 <= Tflipflop:inst22.Q
+A1 <= Tflipflop:inst21.Q
+A0 <= Tflipflop:inst.Q
+isEmpty <= inst35.DB_MAX_OUTPUT_PORT_TYPE
+isFull <= inst36.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|waitingRoom|4bitCounter:inst2|Tflipflop:inst28
+Q <= Dflipflop:inst.Q
+set => Dflipflop:inst.set
+clk => Dflipflop:inst.clk
+T => inst2.IN1
+clr => Dflipflop:inst.clear
+Qn <= Dflipflop:inst.Qn
+
+
+|waitingRoom|4bitCounter:inst2|Tflipflop:inst28|Dflipflop:inst
+Q <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+set => inst9.IN0
+clk => inst2.IN1
+clk => inst1.IN1
+D => inst3.IN1
+clear => inst10.IN0
+Qn <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|waitingRoom|4bitCounter:inst2|Tflipflop:inst22
+Q <= Dflipflop:inst.Q
+set => Dflipflop:inst.set
+clk => Dflipflop:inst.clk
+T => inst2.IN1
+clr => Dflipflop:inst.clear
+Qn <= Dflipflop:inst.Qn
+
+
+|waitingRoom|4bitCounter:inst2|Tflipflop:inst22|Dflipflop:inst
+Q <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+set => inst9.IN0
+clk => inst2.IN1
+clk => inst1.IN1
+D => inst3.IN1
+clear => inst10.IN0
+Qn <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|waitingRoom|4bitCounter:inst2|Tflipflop:inst21
+Q <= Dflipflop:inst.Q
+set => Dflipflop:inst.set
+clk => Dflipflop:inst.clk
+T => inst2.IN1
+clr => Dflipflop:inst.clear
+Qn <= Dflipflop:inst.Qn
+
+
+|waitingRoom|4bitCounter:inst2|Tflipflop:inst21|Dflipflop:inst
+Q <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+set => inst9.IN0
+clk => inst2.IN1
+clk => inst1.IN1
+D => inst3.IN1
+clear => inst10.IN0
+Qn <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|waitingRoom|4bitCounter:inst2|Tflipflop:inst
+Q <= Dflipflop:inst.Q
+set => Dflipflop:inst.set
+clk => Dflipflop:inst.clk
+T => inst2.IN1
+clr => Dflipflop:inst.clear
+Qn <= Dflipflop:inst.Qn
+
+
+|waitingRoom|4bitCounter:inst2|Tflipflop:inst|Dflipflop:inst
+Q <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+set => inst9.IN0
+clk => inst2.IN1
+clk => inst1.IN1
+D => inst3.IN1
+clear => inst10.IN0
+Qn <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
